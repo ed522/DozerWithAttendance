@@ -8,9 +8,8 @@ Much of this project is powered by the blue alliance at https://www.theblueallia
     ```
     token=YourTokenHere
     ```
-3. (Optional) Add the id of the guild the bot will be run on to the dotenv.
-    This provides instant syncing to the guild, very useful for development.
-    If this is not provided, then commands will be synced to all guilds and will take time to take effect.
+3. Add the id of the guild the bot will be run on to the dotenv.
+    This provides instant syncing to the guild and is required for this bot.
      ```
     guild_id=YourGuildIdHere
     ```

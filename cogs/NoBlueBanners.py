@@ -14,4 +14,6 @@ class NoBlueBanners(commands.Cog):
         await interaction.response.send_message(file=file)
 
 async def setup(bot):
-    await bot.add_cog(NoBlueBanners(bot))
+    guild_id = os.getenv("guild_id")
+    guild = discord.Object(id=int(guild_id))
+    await bot.add_cog(NoBlueBanners(bot), guilds=[guild])

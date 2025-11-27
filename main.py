@@ -25,6 +25,7 @@ async def on_ready():
 
 async def load_extensions():
     await bot.load_extension("cogs.ScoringGuide")
+    await bot.load_extension("cogs.NoBlueBanners")
 
 if __name__ == "__main__":
     import asyncio

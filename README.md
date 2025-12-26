@@ -1,3 +1,5 @@
+# This repository is outdated. See the one at [https://github.com/ed522/NewDozer] for the correct version.
+
 ### This is a forked version of the original at https://github.com/Graham277/NewDozer. Original readme below
 
 ## About
